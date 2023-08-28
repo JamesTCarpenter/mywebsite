@@ -189,11 +189,11 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
+      img: "https://janustechnology.co.uk/wp-content/uploads/DriverCard_Warmup-510x510.png",
       role: "Junior Web Developer",
       company: "Warmup Plc",
-      date: "Aug 2023 - July 2023",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      date: "Aug 2023 - Present",
+      desc: "Create new features and designs, as well as manage and maintain multiple country specific websites (over 40), for a global underfloor heating company.",
       skills: [
         "Docker",
         "Terraform",
@@ -210,11 +210,11 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
+      img: "https://logosandtypes.com/wp-content/uploads/2022/03/cognizant.svg",
       role: "Salesforce Software Developer",
-      company: "Flipr",
-      date: "June 2023 - July 2023",
-      desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+      company: "Cognizant",
+      date: "October 2017 - July 2021",
+      desc: "Created new features and resolved support solutions to a number of different users in a client application for a global pharmacutical company.",
       skills: [
         "ReactJS",
         "Redux",
@@ -242,12 +242,12 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
+      img: "https://yt3.googleusercontent.com/EFZFiWnL7iq0w9v2hzSnC6p8v_PaXT5YOFb92KFrT1qkk0j0aVjxxx5Zij2sx5rwHEcXTbcRMi8=s900-c-k-c0x00ffffff-no-rj",
+      school: "Step Forward Apprenticeships",
+      date: "October 2017 - October 2018",
+      grade: "Pass",
+      desc: "I completed a software developer apprenticeship which helped me gain my first steps into the tech industry",
+      degree: "Software Development Technician - Level 3",
     },
   ];
   

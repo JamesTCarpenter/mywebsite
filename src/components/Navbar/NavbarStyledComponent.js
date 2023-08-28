@@ -216,3 +216,9 @@ export const MobileNavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
+
+export const Img = styled.img`
+  position: relative;
+  width: 3rem;
+  height: 100%;
+`;

@@ -130,7 +130,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_c6pvrtm', 'template_ocb6u3r', form.current, '_xrsTGJBlFKgmheD_')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -160,6 +160,7 @@ const Contact = () => {
           onClose={()=>setOpen(false)}
           message="Email sent successfully!"
           severity="success"
+          style={{zIndex: "100 !important"}}
         />
       </Wrapper>
     </Container>
