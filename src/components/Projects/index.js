@@ -34,9 +34,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>VIDEO GAMES</ToggleButton>
+            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>GAMES</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>VIDEO GAMES</ToggleButton>
+            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>GAMES</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
