@@ -225,7 +225,7 @@ export const Bio = {
       img: "https://janustechnology.co.uk/wp-content/uploads/DriverCard_Warmup-510x510.png",
       role: "Junior Web Developer",
       company: "Warmup Plc",
-      date: "Aug 2023 - Present",
+      date: "July 2021 - Present",
       desc: "Create new features and designs, as well as manage and maintain multiple country specific websites (over 40), for a global underfloor heating company.",
       skills: [
         "Wordpress",
