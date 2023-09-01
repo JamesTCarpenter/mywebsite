@@ -296,8 +296,7 @@ export const Bio = {
         "SEO",
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https:www.warmup.co.uk",
+      github: "https:www.warmup.co.uk",
     },
     {
       id: 1,
