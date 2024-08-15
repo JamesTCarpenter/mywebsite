@@ -300,6 +300,114 @@ export const Bio = {
   export const projects = [
     {
       id: 1,
+      title: "Japan House London Shop",
+      date: "June 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://shop.japanhouselondon.uk/",
+    },
+    {
+      id: 1,
+      title: "1864 Rooftop Bar & Kitchen",
+      date: "May 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://1864rooftopbar.co.uk/",
+    },
+    {
+      id: 1,
+      title: "NHS Patient Survey",
+      date: "May 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://nhssurveys.org/",
+    },
+    {
+      id: 1,
+      title: "Two Temple Place",
+      date: "January 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://twotempleplace.org/",
+    },
+    {
+      id: 1,
+      title: "Design Culture",
+      date: "January 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://www.design-culture.co.uk/",
+    },
+    {
+      id: 1,
+      title: "Transparency International US",
+      date: "January 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://us.transparency.org/",
+    },
+    {
+      id: 1,
       title: "Anglo Polish Cultural Exchange",
       date: "January 2024 - Present",
       description:
