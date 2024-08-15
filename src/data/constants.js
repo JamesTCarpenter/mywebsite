@@ -5,7 +5,6 @@ export const Bio = {
       "UI/UX Designer",
       "Programmer",
       "App Developer",
-      "Indie Game Developer",
     ],
     description:
       "I am motivated and adaptable individual, who brings a strong combination of creativity, problem-solving and hard work ethics to the table. With a genuine passion for all things tech, I am dedicated to delivering impactful results and consistently exceeding expectations.",
@@ -15,7 +14,6 @@ export const Bio = {
     linkedin: "https://www.linkedin.com/in/james-carpenter-856a3510a",
     codepen: "https://codepen.io/JamesCarpenter",
     behance: "https://www.behance.net/JamesCarpenter11",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
   };
   
   export const skills = [
@@ -300,9 +298,81 @@ export const Bio = {
   ];
   
   export const projects = [
+      {
+      id: 1,
+      title: "Benugo",
+      date: "December 2023 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://www.benugo.com/",
+    },
+      {
+      id: 2,
+      title: "Together For Short Lives",
+      date: "December 2023 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://www.togetherforshortlives.org.uk/",
+    },
     {
-      id: 0,
-      title: "Warmup Website Design and Performance Upgrade",
+      id: 3,
+      title: "Thorogood",
+      date: "December 2023 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://www.thorogood.com/",
+    },
+    {
+      id: 4,
+      title: "Dot Dot Dot",
+      date: "December 2023 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: "web app",
+      github: "https://dotdotdotproperty.com/",
+    },
+    {
+      id: 5,
+      title: "Warmup Plc",
       date: "July 2021 - Present",
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
@@ -319,7 +389,7 @@ export const Bio = {
       github: "https://www.warmup.co.uk",
     },
     {
-      id: 1,
+      id: 6,
       title: "Music Room App",
       date: "April 2022 - Present",
       description:
@@ -338,7 +408,7 @@ export const Bio = {
       github: "https://www.musicroom.app",
     },
     {
-      id: 2,
+      id: 7,
       title: "Portfolio Website",
       date: "April 2023 - July 2023",
       description:
@@ -356,7 +426,7 @@ export const Bio = {
       github: "https://www.jamestcarpenter.com",
     },
     {
-      id: 3,
+      id: 8,
       title: "Chelsea Whittle Website",
       date: "September 2021 - August 2023",
       description:
@@ -367,30 +437,7 @@ export const Bio = {
       category: "web app",
       github: "https://www.chelseawhittle.com/",
     },
-    {
-      id: 5,
-      title: "Cryptonite",
-      date: "July 2022 - September 2022",
-      description:
-        "App that I created as part of my university course module 'Mobile Development'. The app takes live data from cryptocurrency prices and allows you to add your own. You can use the app to see current and past trends as well as see how your portfolio is doing (profit/loss) over a set period ",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/Cryptonite-Working-Demo-YouTube.png",
-      tags: ["React Native","External API"],
-      category: "android app",
-      github: "https://www.youtube.com/watch?v=cmXyIvwz1Ic",
-    },
-    {
-      id: 6,
-      title: "Moira",
-      date: "October 2022 - Mar 2023",
-      description:
-        "The final project I did at university. This is a Unity based dice game where users taker turns in order to deplete their opponents lives. Uses special dice faces and has a Greek theme to it",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/Final-Project-Report-Google-Docs.png",
-      tags: ["Unity", "C#"],
-      category: "machine learning",
-      github: "https://host-interactive.itch.io/moira",
-    },
+    
     
 
   ];
