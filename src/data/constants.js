@@ -222,11 +222,32 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://www.a-m-a.co.uk/wp-content/uploads/2022/06/DC1.jpg",
+      role: "Front End Developer",
+      company: "Design Culture",
+      date: "December 2023 - Present",
+      desc: "Work with a number of clients in the charity and hospitality sector (over 20) at an agency to build websites, create custom templates, redesign and improve modules and perform routine maintenace",
+      skills: [
+        "Wordpress",
+        "PHP",
+        "Timber",
+        "Tailwind",
+        "SCSS",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Composer"
+        "SEO",
+        "UI/UX",
+      ],
+    },
+    {
+      id: 1,
       img: "https://janustechnology.co.uk/wp-content/uploads/DriverCard_Warmup-510x510.png",
-      role: "Junior Web Developer",
+      role: "Web Developer",
       company: "Warmup Plc",
-      date: "July 2021 - Present",
-      desc: "Create new features and designs, as well as manage and maintain multiple country specific websites (over 40), for a global underfloor heating company.",
+      date: "July 2021 - December 2023",
+      desc: "Created new features and designs, as well as managed and maintain multiple country specific websites (over 40), for a global underfloor heating company.",
       skills: [
         "Wordpress",
         "PHP",
@@ -238,10 +259,9 @@ export const Bio = {
         "Analytics Software",
         "UI/UX",
       ],
-      
     },
     {
-      id: 1,
+      id: 2,
       img: "https://logosandtypes.com/wp-content/uploads/2022/03/cognizant.svg",
       role: "Salesforce Software Developer",
       company: "Cognizant",
