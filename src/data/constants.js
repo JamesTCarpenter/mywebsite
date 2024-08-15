@@ -236,7 +236,7 @@ export const Bio = {
         "CSS",
         "HTML",
         "JavaScript",
-        "Composer"
+        "Composer",
         "SEO",
         "UI/UX",
       ],
