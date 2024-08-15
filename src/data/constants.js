@@ -368,22 +368,6 @@ export const Bio = {
       github: "https://www.chelseawhittle.com/",
     },
     {
-      id: 4,
-      title: "The Plug News Website",
-      date: "January 2022 - March 2022",
-      description:
-        "My submission for my university module 'Web Developent'. The first website I built from scratch, this is a news website that features an external weather and Spotify API aimed at students who want to be kept up to date with current news.",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/The-Plug-Magazine-Always-stay-up-to-date.png",
-      tags: [
-        "HTML",
-        "CSS",
-        "Netlify",
-      ],
-      category: "web app",
-      github: "https://theplugnews.netlify.app/",
-    },
-    {
       id: 5,
       title: "Cryptonite",
       date: "July 2022 - September 2022",
@@ -407,18 +391,6 @@ export const Bio = {
       category: "machine learning",
       github: "https://host-interactive.itch.io/moira",
     },
-    // {
-    //   id: 6,
-    //   title: "Sushi Dash",
-    //   date: "Jan 2023 - Mar 2023",
-    //   description:
-    //     "A VR game I created at univesity using Unity and its VR capabilities. The user has to throw the right food onto the moving conveyor belt before it reaches the scanner",
-    //   image:
-    //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    //   tags: ["Unity", "C#", "VR"],
-    //   category: "machine learning",
-    //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    // },
     
 
   ];
