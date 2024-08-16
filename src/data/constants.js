@@ -288,7 +288,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://yt3.googleusercontent.com/EFZFiWnL7iq0w9v2hzSnC6p8v_PaXT5YOFb92KFrT1qkk0j0aVjxxx5Zij2sx5rwHEcXTbcRMi8=s900-c-k-c0x00ffffff-no-rj",
+      img: "https://wearetechwomen.com/wp-content/uploads/2018/06/bcs-logo-300x211.png",
       school: "Step Forward Apprenticeships",
       date: "October 2017 - October 2018",
       grade: "Pass",
