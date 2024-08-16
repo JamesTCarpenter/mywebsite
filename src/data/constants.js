@@ -629,7 +629,7 @@ export const Bio = {
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/benugo.png",
       tags: [
         "Wordpress",
         "PHP",
@@ -647,7 +647,7 @@ export const Bio = {
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/tfsl.png",
       tags: [
         "Wordpress",
         "PHP",
@@ -665,7 +665,7 @@ export const Bio = {
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/thorogood.png",
       tags: [
         "Wordpress",
         "PHP",
