@@ -710,7 +710,7 @@ export const Bio = {
         "Netflify",
 
       ],
-      category: "other",
+      category: ["featured", "other"],
       github: "https://www.jamestcarpenter.com",
     },
 
