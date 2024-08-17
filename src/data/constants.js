@@ -313,7 +313,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "hospitality",
+      category: ["featured", "hospitality"],
       github: "https://1864rooftopbar.co.uk/",
     },
     {
@@ -547,7 +547,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "charity",
+      category: ["featured", "charity"],
       github: "https://www.international-alert.org/",
     },
     {
@@ -601,7 +601,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "hospitality",
+      category: ["featured", "hospitality"],
       github: "https://www.benugo.com/",
     },
     {
@@ -692,7 +692,7 @@ export const Bio = {
         "Netlify",
         "Heroku",
       ],
-      category: "other",
+      category: ["featured", "other"],
       github: "https://www.musicroom.app",
     },
     {
