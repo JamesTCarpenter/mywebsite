@@ -12,31 +12,31 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of websites. Recently I have been working on websites in the charity and hospitality sectior.
         </Desc>
         <ToggleButtonGroup >
-          {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+          {toggle === 'featured' ?
+            <ToggleButton active value="featured" onClick={() => setToggle('all')}>Featured</ToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton value="featured" onClick={() => setToggle('all')}>Featured</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          {toggle === 'hospitality' ?
+            <ToggleButton active value="hospitality" onClick={() => setToggle('web app')}>Hospitality</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="hospitality" onClick={() => setToggle('web app')}>Hospitality</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>MOBILE APP'S</ToggleButton>
+          {toggle === 'charity' ?
+            <ToggleButton active value="charity" onClick={() => setToggle('android app')}>Charity</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>MOBILE APP'S</ToggleButton>
+            <ToggleButton value="charity" onClick={() => setToggle('android app')}>Charity</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>GAMES</ToggleButton>
+          {toggle === 'other' ?
+            <ToggleButton active value="other" onClick={() => setToggle('machine learning')}>Other</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>GAMES</ToggleButton>
+            <ToggleButton value="other" onClick={() => setToggle('machine learning')}>Other</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
