@@ -313,7 +313,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://1864rooftopbar.co.uk/",
     },
     {
@@ -331,7 +331,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "other",
       github: "https://nhssurveys.org/",
     },
     {
@@ -349,7 +349,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://twotempleplace.org/",
     },
     {
@@ -367,7 +367,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "other",
       github: "https://www.design-culture.co.uk/",
     },
     {
@@ -385,7 +385,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://us.transparency.org/",
     },
     {
@@ -403,7 +403,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://anglopolishculturalexchange.org.uk/",
     },
     {
@@ -421,7 +421,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://www.lookahead.org.uk/",
     },
     {
@@ -439,7 +439,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://www.fulhampalace.org/",
     },
     {
@@ -457,7 +457,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "other",
       github: "https://www.rambertschool.org.uk/",
     },
     {
@@ -475,7 +475,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://www.lordcrewescharity.org.uk/",
     },
     {
@@ -493,7 +493,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://www.fairtrials.org/",
     },
     {
@@ -511,7 +511,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://pleabargaininginstitute.com/",
     },
     {
@@ -529,7 +529,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://www.lincolnsinn.org.uk/",
     },
     {
@@ -547,7 +547,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://www.international-alert.org/",
     },
     {
@@ -565,7 +565,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://thecharterhouse.org/",
     },
     {
@@ -583,7 +583,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://www.clerkenwellgreen.com/",
     },
     {
@@ -601,7 +601,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "hospitality",
       github: "https://www.benugo.com/",
     },
     {
@@ -619,7 +619,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://www.togetherforshortlives.org.uk/",
     },
     {
@@ -637,7 +637,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "other",
       github: "https://www.thorogood.com/",
     },
     {
@@ -655,7 +655,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "charity",
       github: "https://dotdotdotproperty.com/",
     },
     {
@@ -673,7 +673,7 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "web app",
+      category: "other",
       github: "https://www.warmup.co.uk",
     },
     {
@@ -692,7 +692,7 @@ export const Bio = {
         "Netlify",
         "Heroku",
       ],
-      category: "web app",
+      category: "other",
       github: "https://www.musicroom.app",
     },
     {
@@ -710,7 +710,7 @@ export const Bio = {
         "Netflify",
 
       ],
-      category: "web app",
+      category: "other",
       github: "https://www.jamestcarpenter.com",
     },
 
