@@ -4,7 +4,7 @@ import ProjectCard from '../Cards/ProjectCards';
 import { projects } from '../../data/constants';
 
 const Projects = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState('all');
+  const [toggle, setToggle] = useState('featured');  // Default to 'featured' or any other initial category
 
   return (
     <Container id="projects">
@@ -14,7 +14,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           I have worked on a wide range of websites. Recently, I have been working on websites in the charity and hospitality sectors.
         </Desc>
         <ToggleButtonGroup>
-          {['all', 'featured', 'hospitality', 'charity', 'other'].map((value) => (
+          {['featured', 'hospitality', 'charity', 'other'].map((value) => (
             <React.Fragment key={value}>
               <ToggleButton
                 active={toggle === value}
@@ -29,7 +29,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         </ToggleButtonGroup>
         <CardContainer>
           {projects
-            .filter((project) => toggle === 'all' || project.category.includes(toggle))
+            .filter((project) => project.category.includes(toggle))
             .map((project) => (
               <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
             ))}
