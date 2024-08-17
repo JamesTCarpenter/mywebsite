@@ -16,27 +16,27 @@ const Projects = ({openModal,setOpenModal}) => {
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'featured' ?
-            <ToggleButton active value="featured" onClick={() => setToggle('all')}>Featured</ToggleButton>
+            <ToggleButton active value="featured" onClick={() => setToggle('featured')}>Featured</ToggleButton>
             :
-            <ToggleButton value="featured" onClick={() => setToggle('all')}>Featured</ToggleButton>
+            <ToggleButton value="featured" onClick={() => setToggle('featured')}>Featured</ToggleButton>
           }
           <Divider />
           {toggle === 'hospitality' ?
-            <ToggleButton active value="hospitality" onClick={() => setToggle('web app')}>Hospitality</ToggleButton>
+            <ToggleButton active value="hospitality" onClick={() => setToggle('hospitality')}>Hospitality</ToggleButton>
             :
-            <ToggleButton value="hospitality" onClick={() => setToggle('web app')}>Hospitality</ToggleButton>
+            <ToggleButton value="hospitality" onClick={() => setToggle('hospitality')}>Hospitality</ToggleButton>
           }
           <Divider />
           {toggle === 'charity' ?
-            <ToggleButton active value="charity" onClick={() => setToggle('android app')}>Charity</ToggleButton>
+            <ToggleButton active value="charity" onClick={() => setToggle('charity')}>Charity</ToggleButton>
             :
-            <ToggleButton value="charity" onClick={() => setToggle('android app')}>Charity</ToggleButton>
+            <ToggleButton value="charity" onClick={() => setToggle('charity')}>Charity</ToggleButton>
           }
           <Divider />
           {toggle === 'other' ?
-            <ToggleButton active value="other" onClick={() => setToggle('machine learning')}>Other</ToggleButton>
+            <ToggleButton active value="other" onClick={() => setToggle('other')}>Other</ToggleButton>
             :
-            <ToggleButton value="other" onClick={() => setToggle('machine learning')}>Other</ToggleButton>
+            <ToggleButton value="other" onClick={() => setToggle('other')}>Other</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
