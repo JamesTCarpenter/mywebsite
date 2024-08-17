@@ -395,7 +395,7 @@ export const Bio = {
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/transparencyinternational.png",
       tags: [
         "Wordpress",
         "PHP",
@@ -413,7 +413,7 @@ export const Bio = {
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/apce.png",
       tags: [
         "Wordpress",
         "PHP",
@@ -431,25 +431,7 @@ export const Bio = {
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
-      tags: [
-        "Wordpress",
-        "PHP",
-        "HTML",
-        "CSS",
-        "SEO",
-      ],
-      category: "web app",
-      github: "https://www.lookahead.org.uk/",
-    },
-    {
-      id: 1,
-      title: "Look Ahead",
-      date: "January 2024 - Present",
-      description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/lookahead.png",
       tags: [
         "Wordpress",
         "PHP",
@@ -749,20 +731,6 @@ export const Bio = {
       category: "web app",
       github: "https://www.jamestcarpenter.com",
     },
-    {
-      id: 8,
-      title: "Chelsea Whittle Website",
-      date: "September 2021 - August 2023",
-      description:
-        "Created for the graphic designer Chelsea Whittle, this website incorperates her artistic flair and is designed in a way to have her work front and centre for users to appreciate. Has gone through multiple iterations since initial development",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/Home-Creative-Director.png",
-      tags: ["WIX", "HTML", "CSS"],
-      category: "web app",
-      github: "https://www.chelseawhittle.com/",
-    },
-    
-    
 
   ];
   
