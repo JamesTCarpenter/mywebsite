@@ -7,10 +7,10 @@ export const Bio = {
       "App Developer",
     ],
     description:
-      "I am motivated and adaptable individual, who brings a strong combination of creativity, problem-solving and hard work ethics to the table. With a genuine passion for all things tech, I am dedicated to delivering impactful results and consistently exceeding expectations.",
+      "As a Developer with over 6 years of experience, I specialize in transforming designs into dynamic, user-friendly interfaces. I bring a unique blend of technical expertise and creative vision to my work, ensuring that every project I touch not only meets but exceeds expectations. My background in web development and software architecture, coupled with my proficiency in various front-end technologies, allows me to develop templates, modules, and maintain client sites to ensure they are up-to-date and provide the best possible user experience.",
     github: "https://github.com/jamestcarpenter",
     resume:
-      "https://drive.google.com/file/d/11vOEFGmwN8_FVV2MUl1UGW9DaQoThkFG/view?usp=sharing",
+      "https://drive.google.com/file/d/11pZD57R1vg4K8cHNhnjs1MNQm_NcBr-A/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/james-carpenter-856a3510a",
     codepen: "https://codepen.io/JamesCarpenter",
     behance: "https://www.behance.net/JamesCarpenter11",
@@ -228,6 +228,7 @@ export const Bio = {
       skills: [
         "Wordpress",
         "PHP",
+        "Twig",
         "Timber",
         "Tailwind",
         "SCSS",
@@ -627,7 +628,7 @@ export const Bio = {
       title: "Together For Short Lives",
       date: "December 2023 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have done a number of different front end jobs for this childrens charity. I have created brand new pages using new custom made templates, modified existing modules to fit the clients new needs, solved bugs that have arisen, and helped to improve performance on the website as a whole.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/tfsl.png",
       tags: [
@@ -645,14 +646,15 @@ export const Bio = {
       title: "Thorogood",
       date: "December 2023 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have performed multiple tasks for this tech consulatancy company. Such jobs include module creation, feature updates, small hot fix tasks and monthly plugin updates and maintenance checks.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/thorogood.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "Twig",
+        "SCSS",
+        "JavaScript",
         "SEO",
       ],
       category: "other",
@@ -663,14 +665,17 @@ export const Bio = {
       title: "Dot Dot Dot",
       date: "December 2023 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "This was the first project I worked on at Design Culture. They were at the tail end of the initial web development. I created a few modules in the initial phase and continue to provide module and template creations/improvements, as well as perform monthly maintenace tasks for this property guardian website.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/DotDotDot.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "Twig",
+        "JavaScript",
+        "Tailwind",
+        "composer",
+        "Bedrock",
         "SEO",
       ],
       category: "other",
@@ -681,7 +686,7 @@ export const Bio = {
       title: "Warmup Plc",
       date: "July 2021 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. I also built a bespoke cost calculator using React.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/WARMUP-Plc-%E2%80%94-Underfloor-Heating-Official-UK-Website.png",
       tags: [
