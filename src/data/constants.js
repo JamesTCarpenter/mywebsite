@@ -317,7 +317,7 @@ export const Bio = {
       github: "https://shop.japanhouselondon.uk/",
     },
     {
-      id: 0,
+      id: 1,
       title: "1864 Rooftop Bar & Kitchen",
       date: "May 2024 - Present",
       description:
@@ -335,7 +335,7 @@ export const Bio = {
       github: "https://1864rooftopbar.co.uk/",
     },
     {
-      id: 1,
+      id: 2,
       title: "NHS Patient Survey",
       date: "May 2024 - Present",
       description:
@@ -353,7 +353,7 @@ export const Bio = {
       github: "https://nhssurveys.org/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Two Temple Place",
       date: "January 2024 - Present",
       description:
@@ -371,7 +371,7 @@ export const Bio = {
       github: "https://twotempleplace.org/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Design Culture",
       date: "January 2024 - Present",
       description:
@@ -389,7 +389,7 @@ export const Bio = {
       github: "https://www.design-culture.co.uk/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Transparency International US",
       date: "January 2024 - Present",
       description:
@@ -407,7 +407,7 @@ export const Bio = {
       github: "https://us.transparency.org/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Anglo Polish Cultural Exchange",
       date: "January 2024 - Present",
       description:
@@ -425,7 +425,7 @@ export const Bio = {
       github: "https://anglopolishculturalexchange.org.uk/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Look Ahead",
       date: "January 2024 - Present",
       description:
@@ -443,7 +443,7 @@ export const Bio = {
       github: "https://www.lookahead.org.uk/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Fulham Palace",
       date: "January 2024 - Present",
       description:
@@ -461,7 +461,7 @@ export const Bio = {
       github: "https://www.fulhampalace.org/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Rambert School",
       date: "January 2024 - Present",
       description:
@@ -479,7 +479,7 @@ export const Bio = {
       github: "https://www.rambertschool.org.uk/",
     },
     {
-      id: 9,
+      id: 10,
       title: "Lord Crewe's Charity",
       date: "January 2024 - Present",
       description:
@@ -497,7 +497,7 @@ export const Bio = {
       github: "https://www.lordcrewescharity.org.uk/",
     },
     {
-      id: 10,
+      id: 11,
       title: "Fair Trials",
       date: "January 2024 - Present",
       description:
@@ -515,7 +515,7 @@ export const Bio = {
       github: "https://www.fairtrials.org/",
     },
     {
-      id: 11,
+      id: 12,
       title: "Plea Bargaining Institute",
       date: "January 2024 - Present",
       description:
@@ -533,7 +533,7 @@ export const Bio = {
       github: "https://pleabargaininginstitute.com/",
     },
     {
-      id: 12,
+      id: 13,
       title: "Lincolns Inn",
       date: "January 2024 - Present",
       description:
@@ -551,7 +551,7 @@ export const Bio = {
       github: "https://www.lincolnsinn.org.uk/",
     },
     {
-      id: 13,
+      id: 14,
       title: "International Alert",
       date: "January 2024 - Present",
       description:
@@ -569,7 +569,7 @@ export const Bio = {
       github: "https://www.international-alert.org/",
     },
     {
-      id: 14,
+      id: 15,
       title: "The Charterhouse",
       date: "December 2023 - Present",
       description:
@@ -587,7 +587,7 @@ export const Bio = {
       github: "https://thecharterhouse.org/",
     },
     {
-      id: 15,
+      id: 16,
       title: "Clerkenwell Green",
       date: "December 2023 - Present",
       description:
@@ -605,7 +605,7 @@ export const Bio = {
       github: "https://www.clerkenwellgreen.com/",
     },
     {
-      id: 16,
+      id: 17,
       title: "Benugo",
       date: "December 2023 - Present",
       description:
@@ -623,7 +623,7 @@ export const Bio = {
       github: "https://www.benugo.com/",
     },
     {
-      id: 17,
+      id: 18,
       title: "Together For Short Lives",
       date: "December 2023 - Present",
       description:
@@ -641,7 +641,7 @@ export const Bio = {
       github: "https://www.togetherforshortlives.org.uk/",
     },
     {
-      id: 18,
+      id: 19,
       title: "Thorogood",
       date: "December 2023 - Present",
       description:
@@ -659,7 +659,7 @@ export const Bio = {
       github: "https://www.thorogood.com/",
     },
     {
-      id: 19,
+      id: 20,
       title: "Dot Dot Dot",
       date: "December 2023 - Present",
       description:
@@ -673,11 +673,11 @@ export const Bio = {
         "CSS",
         "SEO",
       ],
-      category: "charity",
+      category: "other",
       github: "https://dotdotdotproperty.com/",
     },
     {
-      id: 20,
+      id: 21,
       title: "Warmup Plc",
       date: "July 2021 - Present",
       description:
@@ -695,7 +695,7 @@ export const Bio = {
       github: "https://www.warmup.co.uk",
     },
     {
-      id: 21,
+      id: 22,
       title: "Music Room App",
       date: "April 2022 - Present",
       description:
@@ -714,7 +714,7 @@ export const Bio = {
       github: "https://www.musicroom.app",
     },
     {
-      id: 22,
+      id: 23,
       title: "Portfolio Website",
       date: "April 2023 - July 2023",
       description:
