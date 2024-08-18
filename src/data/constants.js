@@ -300,6 +300,24 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Japan House Shop",
+      date: "June 2024 - Present",
+      description:
+        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/japanhouse.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "SEO",
+      ],
+      category: ["featured", "hospitality"],
+      github: "https://shop.japanhouselondon.uk/",
+    },
+    {
+      id: 0,
       title: "1864 Rooftop Bar & Kitchen",
       date: "May 2024 - Present",
       description:
