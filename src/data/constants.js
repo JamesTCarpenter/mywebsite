@@ -166,6 +166,11 @@ export const Bio = {
             "https://asset.brandfetch.io/idxB1p5kuP/idoFDTxQUQ.svg?updated=1673962246264",
         },
         {
+          name: "Kinsta",
+          image:
+            "https://kinsta.com/wp-content/uploads/2023/12/logo-email.svg",
+        },
+        {
           name: "Unity",
           image:
             "https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png",
@@ -182,7 +187,17 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg",
+        },
+        {
+          name: "BitBucket",
+          image:
+            "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/44_Bitbucket_logo_logos-1024.png",
+        },
+        {
+          name: "Sourcetree",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/sourcetree-1.svg",
         },
         {
           name: "Gulp",
