@@ -535,7 +535,7 @@ export const Bio = {
     },
     {
       id: 13,
-      title: "Lincolns Inn",
+      title: "Lincoln's Inn",
       date: "January 2024 - Present",
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
@@ -556,7 +556,7 @@ export const Bio = {
       title: "International Alert",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "International Alert is a peacebuilding charity that has their website present in multiple languages due to their reach. I have worked on creating new templates and updated existing ones to fit the clients wants as well as performed routine monthly plugin updates and bug fix checks to make sure the website is up to date and error free.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/internationalalert.png",
       tags: [
@@ -574,14 +574,15 @@ export const Bio = {
       title: "The Charterhouse",
       date: "December 2023 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have done multiple pieces of work for the heritage site The Charterhouse. From making new templates based off of the clients needs, to implementing new features, forms and modules based off of designs, I have worked on most aspects of the site. I have also performed an audit for accessibility and performance for them. ",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/thecharterhouse.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "SCSS",
+        "ACF",
+        "JavaScript",
         "SEO",
       ],
       category: "hospitality",
@@ -599,6 +600,7 @@ export const Bio = {
         "Wordpress",
         "PHP",
         "Twig",
+        "Timber",
         "SCSS",
         "ACF",
         "JavaScript",
@@ -619,6 +621,7 @@ export const Bio = {
         "Wordpress",
         "PHP",
         "Twig",
+        "Timber",
         "SCSS",
         "JavaScript",
         "ACF",
@@ -641,6 +644,7 @@ export const Bio = {
         "Wordpress",
         "PHP",
         "Twig",
+        "Timber",
         "SCSS",
         "JavaScript",
         "ACF",
@@ -663,6 +667,7 @@ export const Bio = {
         "Wordpress",
         "PHP",
         "Twig",
+        "Timber",
         "SCSS",
         "ACF",
         "JavaScript",
@@ -683,6 +688,7 @@ export const Bio = {
         "Wordpress",
         "PHP",
         "Twig",
+        "Timber",
         "JavaScript",
         "Tailwind",
         "Composer",
