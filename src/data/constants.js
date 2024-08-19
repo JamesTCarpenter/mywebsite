@@ -470,14 +470,15 @@ export const Bio = {
       title: "Look Ahead",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have done a number of varying tasks for the care and housing charity Look Ahead. Such tasks include creating new features on templates, creating new modules to go on specific pages, fixing legacy bugs and performing routine monthly plugin updates.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/lookahead.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "SCSS",
+        "JavaScript",
+        "ACF",
         "SEO",
       ],
       category: "charity",
@@ -488,14 +489,17 @@ export const Bio = {
       title: "Fulham Palace",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "Fulham Palace is a historic house in London. I have done a number of different bits of work for them such as creating new templates, modifying modules and intitiating maintenance checks on a monthly basis.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/fulhampalace.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "Twig",
+        "Timber",
+        "SCSS",
+        "ACF",
+        "JavaScript",
         "SEO",
       ],
       category: "hospitality",
@@ -506,14 +510,15 @@ export const Bio = {
       title: "Rambert School",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have done a few bits and pieces for Rambert School. I have updated modules with new client needs and performed monthly plugin updates and bug checks.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/rambertschool.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "SCSS",
+        "JavaScript",
+        "ACF",
         "SEO",
       ],
       category: "other",
@@ -530,6 +535,8 @@ export const Bio = {
       tags: [
         "Wordpress",
         "PHP",
+        "Twig",
+        "Timber",
         "SCSS",
         "JavaScript",
         "ACF",
@@ -551,6 +558,8 @@ export const Bio = {
       tags: [
         "Wordpress",
         "PHP",
+        "Twig",
+        "Timber",
         "SCSS",
         "JavaScript",
         "ACF",
@@ -572,6 +581,8 @@ export const Bio = {
       tags: [
         "Wordpress",
         "PHP",
+        "Twig",
+        "Timber",
         "SCSS",
         "JavaScript",
         "ACF",
