@@ -40,6 +40,11 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
         },
         {
+          name: "SCSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
           name: "C#",
           image:
             "https://seeklogo.com/images/C/c-logo-A44DB3D53C-seeklogo.com.png",
@@ -69,6 +74,31 @@ export const Bio = {
           name: "Vue Js",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png",
+        },
+        {
+          name: "Twig",
+          image:
+            "https://uploads.sitepoint.com/wp-content/uploads/2017/06/1498395285Twig-768x837.png",
+        },
+        {
+          name: "Timber",
+          image:
+            "https://uploads.commoninja.com/searchengine/wordpress/timber-library.png",
+        },
+        {
+          name: "Tailwind",
+          image:
+            "https://www.svgrepo.com/show/374118/tailwind.svg",
+        },
+        {
+          name: "Composer",
+          image:
+            "https://getcomposer.org/img/logo-composer-transparent5.png",
+        },
+        {
+          name: "Bedrock",
+          image:
+            "https://avatars.githubusercontent.com/u/4986074?s=48&v=4",
         },
         {
           name: "jQuery",
@@ -190,11 +220,6 @@ export const Bio = {
           name: "Illustrator",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png?20220814183839",
-        },
-        {
-          name: "XD",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/512px-Adobe_XD_CC_icon.svg.png?20210729021535",
         },
         {
           name: "Lightroom",
