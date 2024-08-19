@@ -524,14 +524,17 @@ export const Bio = {
       title: "Lord Crewe's Charity",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have done a few tasks for the charity Lord Crewe. The main tasks I have performed include minor hotfix tasks to update designs and content, and implementing a monthly plugin update to make sure the site is secure.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/lordcrewe.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "SCSS",
+        "JavaScript",
+        "ACF",
+        "Composer",
+        "Bedrock",
         "SEO",
       ],
       category: "charity",
@@ -542,14 +545,17 @@ export const Bio = {
       title: "Fair Trials",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have done a fair share of work for the criminal justice organisation Fair Trials. Apart from updating modules, doing hotfixes and bug fixes, I have also implemented a members system for people to sign up and have access to a tailor made forum.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/fairtrials.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "SCSS",
+        "JavaScript",
+        "ACF",
+        "Composer",
+        "Bedrock",
         "SEO",
       ],
       category: "charity",
@@ -560,14 +566,17 @@ export const Bio = {
       title: "Plea Bargaining Institute",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "Plea Bargaining Institute is a plea laws research client who's website I have worked on. I have modified modules based on the clients needs and fixed any bugs that have arisen for them. I have also done plugin updates for them to make sure their website is up to date and secure.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/pbi.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "SCSS",
+        "JavaScript",
+        "ACF",
+        "Composer",
+        "Bedrock",
         "SEO",
       ],
       category: "charity",
@@ -578,14 +587,18 @@ export const Bio = {
       title: "Lincoln's Inn",
       date: "January 2024 - Present",
       description:
-        "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. This is an ongoing project and I am constantly improving all aspects of the site.",
+        "I have performed multiple tasks for this legal association client. I have worked on both their main and events site, improving modules, templates, implementing small hotfixes, updating forms and performing monthly maintenance tasks.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/lincolnsinn.png",
       tags: [
         "Wordpress",
         "PHP",
-        "HTML",
-        "CSS",
+        "Twig",
+        "Timber",
+        "SCSS",
+        "ACF",
+        "JavaScript",
+        "Multi-site",
         "SEO",
       ],
       category: "hospitality",
@@ -596,7 +609,7 @@ export const Bio = {
       title: "International Alert",
       date: "January 2024 - Present",
       description:
-        "International Alert is a peacebuilding charity that has their website present in multiple languages due to their reach. I have worked on creating new templates and updated existing ones to fit the clients wants as well as performed routine monthly plugin updates and bug fix checks to make sure the website is up to date and error free.",
+        "International Alert is a peacebuilding charity that has their website present in multiple languages due to their reach. I have worked on creating new templates and updated existing ones to fit the clients wants as well as performed routine monthly plugin updates and bug fix checks to make sure the website is up to date and error free. I have also integrated plugins on certain templates to help improve accessibility for their users.",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/internationalalert.png",
       tags: [
