@@ -108,9 +108,7 @@ const ContactButton = styled.input`
   text-decoration: none;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, rgba(0,93,28,1) 0%, rgba(23,181,92,1) 35%, rgba(0,212,152,1) 100%);
-  background: -moz-linear-gradient(225deg, rgba(0,93,28,1) 0%, rgba(23,181,92,1) 35%, rgba(0,212,152,1) 100%);
-  background: -webkit-linear-gradient(225deg, rgba(0,93,28,1) 0%, rgba(23,181,92,1) 35%, rgba(0,212,152,1) 100%);
+  background: #64e79e;
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
