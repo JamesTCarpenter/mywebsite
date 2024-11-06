@@ -7,7 +7,7 @@ export const Bio = {
       "App Developer",
     ],
     description:
-      "With over 6 years of experience as a Developer, I specialize in turning designs into engaging, user-friendly interfaces. My blend of technical expertise and creative vision ensures projects exceed expectations. I develop templates, modules, and maintain client sites, leveraging my skills in front-end technologies to keep them up-to-date and optimized for the best user experience.",
+      "With over 7 years of experience as a Developer, I specialize in turning designs into engaging, user-friendly interfaces. My blend of technical expertise and creative vision ensures projects exceed expectations. I develop templates, modules, and maintain client sites, leveraging my skills in front-end technologies to keep them up-to-date and optimized for the best user experience.",
     github: "https://github.com/jamestcarpenter",
     resume:
       "https://drive.google.com/file/d/11pZD57R1vg4K8cHNhnjs1MNQm_NcBr-A/view?usp=sharing",
