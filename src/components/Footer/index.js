@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 James Carpenter. All rights reserved.
+          &copy; 2024 James Carpenter. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
