@@ -10,7 +10,7 @@ export const Bio = {
       "With over 7 years of experience as a Developer, I specialize in turning designs into engaging, user-friendly interfaces. My blend of technical expertise and creative vision ensures projects exceed expectations. I develop templates, modules, and maintain client sites, leveraging my skills in front-end technologies to keep them up-to-date and optimized for the best user experience.",
     github: "https://github.com/jamestcarpenter",
     resume:
-      "https://drive.google.com/file/d/11pZD57R1vg4K8cHNhnjs1MNQm_NcBr-A/view?usp=sharing",
+      "https://drive.google.com/file/d/14JKb_idKdg8MA9OutROIpC0sfv6IdJrA/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/james-carpenter-856a3510a",
     codepen: "https://codepen.io/JamesCarpenter",
     behance: "https://www.behance.net/JamesCarpenter11",
