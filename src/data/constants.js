@@ -341,6 +341,28 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Conflict Sensitivity Hub",
+      date: "September 2024 - Present",
+      description:
+        "CS Hub is a humanitarian organisation that helps in training people in how to provide aid to the conflict areas of the Congo. I was part of creating the site and its modules from scratch. I am also working on the maintenance of the site.",
+      image:
+        "https://github.com/JamesTCarpenter/Images/blob/b5ee1eda6ebe1c6db66e4100973a5c96ddd65ed5/drc.png",
+      tags: [
+        "Wordpress",
+        "PHP",
+        "Twig",
+        "Timber",
+        "JavaScript",
+        "Tailwind",
+        "Composer",
+        "Bedrock",
+        "SEO",
+      ],
+      category:"charity",
+      github: "https://cs-hub.org/",
+    },
+    {
+      id: 0,
       title: "Japan House Shop",
       date: "June 2024 - Present",
       description:
