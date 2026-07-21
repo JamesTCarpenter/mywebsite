@@ -30,7 +30,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   @media (max-width: 768px) {
 margin-top: 12px;
       font-size: 32px;
@@ -41,7 +41,7 @@ export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.white};
     @media (max-width: 768px) {
         font-size: 16px;
     }
@@ -59,9 +59,8 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  background: ${({ theme }) => theme.card};
-  border: 0.1px solid #64E79E;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  background: ${({ theme }) => theme.white};
+  border: 2px solid #0000ff;
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {
@@ -79,7 +78,7 @@ const Skill = styled.div`
 const SkillTitle = styled.h2`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  color: ${({ theme }) => theme.black};
   margin-bottom: 20px;
   text-align: center;
 `
@@ -96,7 +95,7 @@ const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+  border: 2px solid #0000ff;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;

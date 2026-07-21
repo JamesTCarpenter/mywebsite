@@ -1,16 +1,18 @@
+import React from 'react';
 import styled from 'styled-components';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BrushIcon from '@mui/icons-material/Brush';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CodeIcon from '@mui/icons-material/Code';
 import { Bio } from '../../data/constants';
+import FooterImg from '../../images/jtclogo.png';
 
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
+  background: ${({ theme }) => theme.white};
 `;
 
 
@@ -49,12 +51,12 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+color: ${({ theme }) => theme.black};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.red};
   }
   @media (max-width: 768px) {
     font-size: 1rem;
@@ -70,10 +72,10 @@ const SocialMediaIcon = styled.a`
   display: inline-block;
   margin: 0 1rem;
   font-size: 1.5rem;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.black};
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.red};
   }
 `;
 
@@ -84,11 +86,17 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+const Img = styled.img`
+  position: relative;
+  width: 9rem;
+  height: 100%;
+`;
+
 function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>James Carpenter</Logo>
+        <Img src={FooterImg} alt="Logo" />
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -103,7 +111,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 James Carpenter. All rights reserved.
+          &copy; 2026 James Carpenter. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

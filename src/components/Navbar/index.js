@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
-import LogoImg from '../../images/JCstar-01.png';
+import LogoImg from '../../images/jamesclogo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <Img src={LogoImg} /> <Span> James Carpenter</Span>
+            <Img src={LogoImg} />
           </a>
         </NavLogo>
         <MobileIcon>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{padding: '10px 16px',background: `${theme.green}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>

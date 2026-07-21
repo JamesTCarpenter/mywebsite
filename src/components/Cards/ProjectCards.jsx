@@ -18,10 +18,9 @@ const Button = styled.button`
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: ${({ theme }) => theme.card};
+    background-color: ${({ theme }) => theme.black};
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
     overflow: hidden;
     padding: 26px 20px;
     display: flex;
@@ -30,8 +29,6 @@ const Card = styled.div`
     transition: all 0.5s ease-in-out;
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
-        filter: brightness(1.1);
     }
     &:hover ${Button} {
         display: block;
@@ -43,7 +40,6 @@ const Image = styled.img`
     height: auto;
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 `
 
 const Tags = styled.div`
@@ -58,8 +54,8 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
+    color: ${({ theme }) => theme.blue};
+    background-color:#DEE2ff;
     padding: 2px 8px;
     border-radius: 10px;
 `
@@ -74,7 +70,7 @@ const Details = styled.div`
 const Title = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.white};
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
@@ -88,7 +84,7 @@ const Date = styled.div`
     font-size: 12px;
     margin-left: 2px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
@@ -97,7 +93,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 99};
+    color: ${({ theme }) => theme.white};
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;
@@ -118,7 +114,6 @@ const Avatar = styled.img`
     border-radius: 50%;
     margin-left: -10px;
     background-color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: 3px solid ${({ theme }) => theme.card};
 `
 

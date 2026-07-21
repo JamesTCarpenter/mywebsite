@@ -96,10 +96,8 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 400px;
+  max-width: 500px;
   max-height: 400px;
-  border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -146,7 +144,7 @@ export const TextLoop = styled.div`
 `;
 
 export const Span = styled.span`
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.red};
   cursor: pointer;
 `;
 
@@ -175,14 +173,13 @@ export const ResumeButton = styled.a`
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
-    color:#263536;
+    color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: #64E79E;
+    background: ${({ theme }) => theme.green};
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;

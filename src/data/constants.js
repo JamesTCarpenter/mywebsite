@@ -7,7 +7,7 @@ export const Bio = {
       "App Developer",
     ],
     description:
-      "With over 7 years of experience as a Developer, I specialize in turning designs into engaging, user-friendly interfaces. My blend of technical expertise and creative vision ensures projects exceed expectations. I develop templates, modules, and maintain client sites, leveraging my skills in front-end technologies to keep them up-to-date and optimized for the best user experience.",
+      "With over 8 years of experience in app development and UI design, I specialize in creating intuitive, user-friendly digital experiences. My blend of technical expertise and creative thinking ensures every product is both functional and engaging. I design interfaces, develop reusable components, and build scalable applications, leveraging modern front-end technologies to deliver seamless, high-quality user experiences.",
     github: "https://github.com/jamestcarpenter",
     resume:
       "https://drive.google.com/file/d/14JKb_idKdg8MA9OutROIpC0sfv6IdJrA/view?usp=sharing",
@@ -21,14 +21,9 @@ export const Bio = {
       title: "Languages",
       skills: [
         {
-          name: "PHP",
-          image:
-            "https://pngimg.com/uploads/php/php_PNG42.png",
-        },
-        {
           name: "JavaScript",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+            "https://www.w3schools.com/js/img_javascript_480.jpg",
         },
         {
           name: "HTML",
@@ -37,17 +32,16 @@ export const Bio = {
         {
           name: "CSS",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/960px-CSS3_logo.svg.png",
         },
         {
-          name: "SCSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          name: "SASS",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/250px-Sass_Logo_Color.svg.png",
         },
         {
-          name: "C#",
+          name: "PHP",
           image:
-            "https://seeklogo.com/images/C/c-logo-A44DB3D53C-seeklogo.com.png",
+            "https://pngimg.com/uploads/php/php_PNG42.png",
         },
         {
           name: "Python",
@@ -57,7 +51,12 @@ export const Bio = {
         {
           name: "C++",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/C%2B%2B_logo.png/533px-C%2B%2B_logo.png?20210422185554",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1280px-ISO_C%2B%2B_Logo.svg.png",
+        },
+        {
+          name: "C#",
+          image:
+            "https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg",
         },
         
       ],
@@ -73,7 +72,32 @@ export const Bio = {
         {
           name: "Vue Js",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png",
+            "https://js.devexpress.com/Content/Images/Frameworks/Vue.png",
+        },
+        {
+          name: "React Native",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+
+        {
+          name: "Node Js",
+          image: "https://nodejs.org/static/images/logo.svg",
+        },
+        {
+          name: "jQuery",
+          image:
+            "https://avatars.githubusercontent.com/u/70142?s=200&v=4",
+        },
+        {
+          name: "Express Js",
+          image:
+            "data:image/png;base64,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",
+        },
+        {
+          name: "Flutter",
+          image:
+            "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
         },
         {
           name: "Twig",
@@ -101,38 +125,9 @@ export const Bio = {
             "https://avatars.githubusercontent.com/u/4986074?s=48&v=4",
         },
         {
-          name: "jQuery",
-          image:
-            "https://avatars.githubusercontent.com/u/70142?s=200&v=4",
-        },
-        {
-          name: "React Native",
-          image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
           name: "p5.js",
           image:
             "https://images.squarespace-cdn.com/content/v1/54ac6918e4b0867c63ce849d/1495161369392-C38EFPO0N428M1ZVGA2O/-oslcYof.png?format=1000w",
-        },
-        {
-          name: "Flutter",
-          image:
-            "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-        },
-      
-        {
-          name: "Node Js",
-          image: "https://nodejs.org/static/images/logo.svg",
-        },
-        {
-          name: "Express Js",
-          image:
-            "data:image/png;base64,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",
-        },
-        {
-          name: "SASS",
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png",
         },
 
       ],
@@ -143,51 +138,12 @@ export const Bio = {
         {
           name: "Wordpress",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/512px-WordPress_blue_logo.svg.png?20170312030453",
+            "https://www.vectorlogo.zone/logos/wordpress/wordpress-tile.svg",
         },
         {
           name: "Shopify",
           image:
             "https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_shopping-512.png",
-        },
-        {
-          name: "Google Analytics",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/GAnalytics.svg/220px-GAnalytics.svg.png",
-        },
-        {
-          name: "Search Console",
-          image:
-            "https://cdn.worldvectorlogo.com/logos/google-search-console.svg",
-        },
-        {
-          name: "ahrefs",
-          image:
-            "https://asset.brandfetch.io/idxB1p5kuP/idoFDTxQUQ.svg?updated=1673962246264",
-        },
-        {
-          name: "Kinsta",
-          image:
-            "https://kinsta.com/wp-content/uploads/2023/12/logo-email.svg",
-        },
-        {
-          name: "Unity",
-          image:
-            "https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png",
-        },
-        {
-          name: "MongoDB",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-        },
-        {
-          name: "Firebase",
-          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        },
-        {
-          name: "Git",
-          image:
-            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg",
         },
         {
           name: "BitBucket",
@@ -200,6 +156,31 @@ export const Bio = {
             "https://cdn.worldvectorlogo.com/logos/sourcetree-1.svg",
         },
         {
+          name: "MongoDB",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        },
+        {
+          name: "Firebase",
+          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        },
+        {
+          name: "Kinsta",
+          image:
+            "https://kinsta.com/wp-content/uploads/2023/12/logo-email.svg",
+        },
+        {
+          name: "Unity",
+          image:
+            "https://avatars.githubusercontent.com/u/426196?s=200&v=4",
+        },
+        {
+          name: "Git",
+          image:
+            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg",
+        },
+
+        {
           name: "Gulp",
           image:
             "https://www.svgrepo.com/show/303440/gulp-logo.svg",
@@ -207,7 +188,7 @@ export const Bio = {
         {
           name: "Linux",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEPqqlzdcl_8msnalRnJB4iWEx63Jk33II2jSpQRkRug&s",
         },
         {
           name: "Webpack",
@@ -217,15 +198,8 @@ export const Bio = {
       ],
     },
     {
-      title: "Design",
+      title: "Design + Marketing",
       skills: [
-       
-        {
-          name: "GIMP",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/120px-The_GIMP_icon_-_gnome.svg.png",
-        },
-        
         {
           name: "Figma",
           image:
@@ -234,12 +208,32 @@ export const Bio = {
         {
           name: "Illustrator",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png?20220814183839",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzythcjcv-0k-MZHONueXQ8b0hEgD5f2g-KWFZPgKtA&s=10",
         },
         {
-          name: "Lightroom",
+          name: "Campaign Monitor",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/512px-Adobe_Photoshop_Lightroom_CC_logo.svg.png?20200616120137",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBeL318-a5FT61hBU7846TrftkdEy1gBFOvPnPKgL3Xw&s=10",
+        },
+        {
+          name: "Google Analytics",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_le2ASvaxy4HryO2p62ThIFOkbwlu_Zj9eAdQ3GYfVDfuphmQlJmOgpQ&s=10",
+        },
+        {
+          name: "Search Console",
+          image:
+            "https://cdn.worldvectorlogo.com/logos/google-search-console.svg",
+        },
+        {
+          name: "Canva",
+          image:
+            "https://res.cloudinary.com/topaitools/image/upload/v1/logos/gedm9vriipr8uvdthygg?_a=BAMClqTE0/m/1000x593/filters:format(jpg)",
+        },
+        {
+          name: "ahrefs",
+          image:
+            "https://asset.brandfetch.io/idxB1p5kuP/idoFDTxQUQ.svg?updated=1673962246264",
         },
         {
           name: "Photoshop",
@@ -247,11 +241,15 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/120px-Adobe_Photoshop_CC_icon.svg.png",
         },
         {
+          name: "Lightroom",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxUQZlnrah_Lvpf9MR0d0XmRMODuYyVCAoCjzlPuIXzg&s=10",
+        },
+        {
           name: "Blender",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/512px-Blender_logo_no_text.svg.png?20210507122249",
+            "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/blender.webp",
         },
-
 
       ],
     },
@@ -260,11 +258,32 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://play-lh.googleusercontent.com/fQyiEl8j2JgbQSf-uvKJWMxgPW0gZRNszp88uMx8VA0fcTpeMNmvy0ScB8oPOqR6SZI",
+      role: "Senior Front End Developer",
+      company: "Gameplan HR",
+      date: "January 2025  - Present",
+      desc: "Building a modern HR platform from the ground up, leading front-end development, managing a small team, and creating intuitive user experiences. Contributing to growing the platform of over 1,500 paying employees through continuous product development and innovation.",
+      skills: [
+        "React JS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "UI/UX",
+        "Figma Design",
+        "Email Templating",
+        "Client Pitching",
+        "Web Analytics",
+        "Marketing",
+
+      ],
+    },
+    {
+      id: 1,
       img: "https://www.a-m-a.co.uk/wp-content/uploads/2022/06/DC1.jpg",
       role: "Front End Developer",
       company: "Design Culture",
-      date: "December 2023 - Present",
-      desc: "Work with a number of clients in the charity and hospitality sector (over 20) at an agency to build websites, create custom templates, redesign and improve modules and perform routine maintenace",
+      date: "December 2023 - December 2024",
+      desc: "Worked with a number of clients in the charity and hospitality sector (over 20) at an agency to build websites, create custom templates, redesign and improve modules and perform routine maintenace",
       skills: [
         "Wordpress",
         "PHP",
@@ -281,7 +300,7 @@ export const Bio = {
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: "https://janustechnology.co.uk/wp-content/uploads/DriverCard_Warmup-510x510.png",
       role: "Web Developer",
       company: "Warmup Plc",
@@ -300,7 +319,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: "https://logosandtypes.com/wp-content/uploads/2022/03/cognizant.svg",
       role: "Salesforce Software Developer",
       company: "Cognizant",
@@ -329,6 +348,25 @@ export const Bio = {
     },
     {
       id: 1,
+      title: "Music Room App",
+      date: "April 2022 - Present",
+      description:
+        "An app I am creating in my spare time with another developer. This is a React application where musicians are able to find useful resources, apply to gigs, and be part of a community with like-minded music hobbyists",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/refs/heads/main/musicroom2.png",
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Netlify",
+        "Heroku",
+      ],
+      category: ["featured", "other"],
+      github: "https://www.musicroom.app",
+    },
+    {
+      id: 1,
       img: "https://www.bcs.org/media/8094/black-logo-main.png?rnd=133499950958670000",
       school: "Step Forward Apprenticeships",
       date: "October 2017 - October 2018",
@@ -341,8 +379,48 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Gameplan HR App",
+      date: "January 2025 - Present",
+      description:
+        "My personal website combining my passion for web dev and my love of React Js. A simple one page portfolio utilising a modern design and adding my own unique style",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/refs/heads/main/gameplan.png",
+      tags: [
+        "React Js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React Native",
+        "SEO",
+        "Management"
+
+      ],
+      category: ["featured", "other"],
+      github: "https://demo-gb.gameplanconsulting.co.uk/login",
+    },
+    {
+      id: 1,
+      title: "Music Room App",
+      date: "April 2022 - Present",
+      description:
+        "An app I am creating in my spare time with another developer. This is a React application where musicians are able to find useful resources, apply to gigs, and be part of a community with like-minded music hobbyists",
+      image:
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/refs/heads/main/musicroom2.png",
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Netlify",
+        "Heroku",
+      ],
+      category: ["featured", "other"],
+      github: "https://www.musicroom.app",
+    },
+    {
+      id: 2,
       title: "Conflict Sensitivity Hub",
-      date: "September 2024 - Present",
+      date: "September 2024 - December 2024",
       description:
         "CS Hub is a humanitarian organisation that helps in training people in how to provide aid to the conflict areas of the Congo. I was part of creating the site and its modules from scratch. I am also working on the maintenance of the site.",
       image:
@@ -362,9 +440,9 @@ export const Bio = {
       github: "https://cs-hub.org/",
     },
     {
-      id: 0,
+      id: 3,
       title: "Japan House Shop",
-      date: "June 2024 - Present",
+      date: "June 2024 - December 2024",
       description:
         "I am currently working on the high end Japanese shop Japan House. We are working on a complete re-work of the site from the ground up, introducing more modern approaches and better performance tools. I have contributed to a number of modules on the new web page templates that will be going love on the site soon.",
       image:
@@ -384,9 +462,9 @@ export const Bio = {
       github: "https://shop.japanhouselondon.uk/",
     },
     {
-      id: 1,
+      id: 4,
       title: "1864 Rooftop Bar & Kitchen",
-      date: "May 2024 - Present",
+      date: "May 2024 - December 2024",
       description:
         "I contributed a lot to the 1864 Rooftop Bar website. We worked on this website from scratch and I created a lot of the modules that are on each page. I also worked on implementing animations to the site and have worked on doing maintenance checks to make sure the plugins and technology is up to date for the client.",
       image:
@@ -406,9 +484,9 @@ export const Bio = {
       github: "https://1864rooftopbar.co.uk/",
     },
     {
-      id: 2,
+      id: 5,
       title: "NHS Patient Survey",
-      date: "May 2024 - Present",
+      date: "May 2024 - December 2024",
       description:
         "For the NHS Patient Survey website I have performed both monthly plugin updates and security checks as well as doing bug fixes.",
       image:
@@ -428,9 +506,9 @@ export const Bio = {
       github: "https://nhssurveys.org/",
     },
     {
-      id: 3,
+      id: 6,
       title: "Two Temple Place",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have done a lot of different work for the museum Two Temple Place. I have added new features and modules to new and existing templates. I have also made new custom post types and done regular maintenance checks.",
       image:
@@ -449,9 +527,9 @@ export const Bio = {
       github: "https://twotempleplace.org/",
     },
     {
-      id: 4,
+      id: 7,
       title: "Design Culture",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "Design Culture is the web dev agency I work for. I have built new templates, implemented new features and modules based off of design files, performed full website audits and done regular monthly maintenance checks, including plugin updates and bug checks.",
       image:
@@ -470,9 +548,9 @@ export const Bio = {
       github: "https://www.design-culture.co.uk/",
     },
     {
-      id: 5,
+      id: 8,
       title: "Transparency International US",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "Transparency International US is a coalition against corruption. For these clients I have implemented new features, modified templates, created new modules and performed monthly maintenance on the site.",
       image:
@@ -493,9 +571,9 @@ export const Bio = {
       github: "https://us.transparency.org/",
     },
     {
-      id: 6,
+      id: 9,
       title: "Anglo Polish Cultural Exchange",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have done a few bits of work for the museum Anglo Polish Cultural Exchange. I have modified modules on the request of the client and also done plugin updates for them so they have the most up to date technology on their website.",
       image:
@@ -516,9 +594,9 @@ export const Bio = {
       github: "https://anglopolishculturalexchange.org.uk/",
     },
     {
-      id: 7,
+      id: 10,
       title: "Look Ahead",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have done a number of varying tasks for the care and housing charity Look Ahead. Such tasks include creating new features on templates, creating new modules to go on specific pages, fixing legacy bugs and performing routine monthly plugin updates.",
       image:
@@ -535,9 +613,9 @@ export const Bio = {
       github: "https://www.lookahead.org.uk/",
     },
     {
-      id: 8,
+      id: 11,
       title: "Fulham Palace",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "Fulham Palace is a historic house in London. I have done a number of different bits of work for them such as creating new templates, modifying modules and intitiating maintenance checks on a monthly basis.",
       image:
@@ -556,9 +634,9 @@ export const Bio = {
       github: "https://www.fulhampalace.org/",
     },
     {
-      id: 9,
+      id: 12,
       title: "Rambert School",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have done a few bits and pieces for Rambert School. I have updated modules with new client needs and performed monthly plugin updates and bug checks.",
       image:
@@ -575,9 +653,9 @@ export const Bio = {
       github: "https://www.rambertschool.org.uk/",
     },
     {
-      id: 10,
+      id: 13,
       title: "Lord Crewe's Charity",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have done a few tasks for the charity Lord Crewe. The main tasks I have performed include minor hotfix tasks to update designs and content, and implementing a monthly plugin update to make sure the site is secure.",
       image:
@@ -598,9 +676,9 @@ export const Bio = {
       github: "https://www.lordcrewescharity.org.uk/",
     },
     {
-      id: 11,
+      id: 14,
       title: "Fair Trials",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have done a fair share of work for the criminal justice organisation Fair Trials. Apart from updating modules, doing hotfixes and bug fixes, I have also implemented a members system for people to sign up and have access to a tailor made forum.",
       image:
@@ -621,9 +699,9 @@ export const Bio = {
       github: "https://www.fairtrials.org/",
     },
     {
-      id: 12,
+      id: 15,
       title: "Plea Bargaining Institute",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "Plea Bargaining Institute is a plea laws research client who's website I have worked on. I have modified modules based on the clients needs and fixed any bugs that have arisen for them. I have also done plugin updates for them to make sure their website is up to date and secure.",
       image:
@@ -644,9 +722,9 @@ export const Bio = {
       github: "https://pleabargaininginstitute.com/",
     },
     {
-      id: 13,
+      id: 16,
       title: "Lincoln's Inn",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "I have performed multiple tasks for this legal association client. I have worked on both their main and events site, improving modules, templates, implementing small hotfixes, updating forms and performing monthly maintenance tasks.",
       image:
@@ -666,9 +744,9 @@ export const Bio = {
       github: "https://www.lincolnsinn.org.uk/",
     },
     {
-      id: 14,
+      id: 17,
       title: "International Alert",
-      date: "January 2024 - Present",
+      date: "January 2024 - December 2024",
       description:
         "International Alert is a peacebuilding charity that has their website present in multiple languages due to their reach. I have worked on creating new templates and updated existing ones to fit the clients wants as well as performed routine monthly plugin updates and bug fix checks to make sure the website is up to date and error free. I have also integrated plugins on certain templates to help improve accessibility for their users.",
       image:
@@ -684,13 +762,13 @@ export const Bio = {
         "Multi-language",
         "SEO",
       ],
-      category: ["featured", "charity"],
+      category: "charity",
       github: "https://www.international-alert.org/",
     },
     {
-      id: 15,
+      id: 18,
       title: "The Charterhouse",
-      date: "December 2023 - Present",
+      date: "December 2023 - December 2024",
       description:
         "I have done multiple pieces of work for the heritage site The Charterhouse. From making new templates based off of the clients needs, to implementing new features, forms and modules based off of designs, I have worked on most aspects of the site. I have also performed an audit for accessibility and performance for them. ",
       image:
@@ -707,9 +785,9 @@ export const Bio = {
       github: "https://thecharterhouse.org/",
     },
     {
-      id: 16,
+      id: 19,
       title: "Clerkenwell Green",
-      date: "December 2023 - Present",
+      date: "December 2023 - December 2024",
       description:
         "Clerkenwell Green is a event hospitality client who's site I work on regularly. I have implemented new modules for them as well as improved upon current modules based on the clients needs and wants. I have also done regular maintenance tasks for them.",
       image:
@@ -728,9 +806,9 @@ export const Bio = {
       github: "https://www.clerkenwellgreen.com/",
     },
     {
-      id: 17,
+      id: 20,
       title: "Benugo",
-      date: "December 2023 - Present",
+      date: "December 2023 - December 2024",
       description:
         "For Benugo, the chain of cafes and restaurants, I have worked on adding new modules to the site, implementing small and large changes that the client has asked for on existing templates, and done monthly plugin checks as well as SEO analysis.",
       image:
@@ -751,9 +829,9 @@ export const Bio = {
       github: "https://www.benugo.com/",
     },
     {
-      id: 18,
+      id: 21,
       title: "Together For Short Lives",
-      date: "December 2023 - Present",
+      date: "December 2023 - December 2024",
       description:
         "I have done a number of different front end jobs for this childrens charity. I have created brand new pages using new custom made templates, modified existing modules to fit the clients new needs, solved bugs that have arisen, and helped to improve performance on the website as a whole.",
       image:
@@ -774,9 +852,9 @@ export const Bio = {
       github: "https://www.togetherforshortlives.org.uk/",
     },
     {
-      id: 19,
+      id: 22,
       title: "Thorogood",
-      date: "December 2023 - Present",
+      date: "December 2023 - December 2024",
       description:
         "I have performed multiple tasks for this tech consulatancy company. Such jobs include module creation, feature updates, small hot fix tasks and monthly plugin updates and maintenance checks.",
       image:
@@ -795,9 +873,9 @@ export const Bio = {
       github: "https://www.thorogood.com/",
     },
     {
-      id: 20,
+      id: 23,
       title: "Dot Dot Dot",
-      date: "December 2023 - Present",
+      date: "December 2023 - December 2024",
       description:
         "This was the first project I worked on at Design Culture. They were at the tail end of the initial web development. I created a few modules in the initial phase and continue to provide module and template creations/improvements, as well as perform monthly maintenace tasks for this property guardian website.",
       image:
@@ -817,9 +895,9 @@ export const Bio = {
       github: "https://dotdotdotproperty.com/",
     },
     {
-      id: 21,
+      id: 24,
       title: "Warmup Plc",
-      date: "July 2021 - Present",
+      date: "July 2021 - December 2023",
       description:
         "Completely reworked the Warmup website from the floor up. Reduced the large number of plugins, implemented ACF and PHP templates, and did a complete redesign of pages, menus and imagery. I also built a bespoke cost calculator using React.",
       image:
@@ -835,28 +913,9 @@ export const Bio = {
       github: "https://www.warmup.co.uk",
     },
     {
-      id: 22,
-      title: "Music Room App",
-      date: "April 2022 - Present",
-      description:
-        "An app I am creating in my spare time with another developer. This is a React application where musicians are able to find useful resources, apply to gigs, and be part of a community with like-minded music hobbyists",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/Music-Room-The-All-In-One-App-For-Musicians.png",
-      tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Netlify",
-        "Heroku",
-      ],
-      category: ["featured", "other"],
-      github: "https://www.musicroom.app",
-    },
-    {
-      id: 23,
+      id: 25,
       title: "Portfolio Website",
-      date: "April 2023 - July 2023",
+      date: "April 2023 - July 2026",
       description:
         "My personal website combining my passion for web dev and my love of React Js. A simple one page portfolio utilising a modern design and adding my own unique style",
       image:
@@ -871,6 +930,7 @@ export const Bio = {
       category: ["featured", "other"],
       github: "https://www.jamestcarpenter.com",
     },
+
 
   ];
   
