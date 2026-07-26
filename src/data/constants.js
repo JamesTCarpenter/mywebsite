@@ -258,7 +258,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://play-lh.googleusercontent.com/fQyiEl8j2JgbQSf-uvKJWMxgPW0gZRNszp88uMx8VA0fcTpeMNmvy0ScB8oPOqR6SZI",
+      img: "https://play-lh.googleusercontent.com/bMI9rDoTUSvEx55z0vGNglcGTzcUrC2vobOXD4ETFuZRGMlGRYpHe0VUCvWxebz-YVrHVD_ocCjrHbvpCDL5=w480-h960-rw",
       role: "Senior Front End Developer",
       company: "Gameplan HR",
       date: "January 2025  - Present",
@@ -348,25 +348,6 @@ export const Bio = {
     },
     {
       id: 1,
-      title: "Music Room App",
-      date: "April 2022 - Present",
-      description:
-        "An app I am creating in my spare time with another developer. This is a React application where musicians are able to find useful resources, apply to gigs, and be part of a community with like-minded music hobbyists",
-      image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/refs/heads/main/musicroom2.png",
-      tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Netlify",
-        "Heroku",
-      ],
-      category: ["featured", "other"],
-      github: "https://www.musicroom.app",
-    },
-    {
-      id: 1,
       img: "https://www.bcs.org/media/8094/black-logo-main.png?rnd=133499950958670000",
       school: "Step Forward Apprenticeships",
       date: "October 2017 - October 2018",
@@ -382,7 +363,7 @@ export const Bio = {
       title: "Gameplan HR App",
       date: "January 2025 - Present",
       description:
-        "My personal website combining my passion for web dev and my love of React Js. A simple one page portfolio utilising a modern design and adding my own unique style",
+        "Have been creating a HR platform on web and mobile for the startup HR company Gameplan. I have helped build it from the ground up with my technical, design and management efforts to get over 1000+ users on the system",
       image:
         "https://raw.githubusercontent.com/JamesTCarpenter/Images/refs/heads/main/gameplan.png",
       tags: [
