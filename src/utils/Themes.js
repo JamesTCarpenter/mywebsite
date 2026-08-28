@@ -10,7 +10,7 @@ export const darkTheme = {
     white:"#FFFFFF",
     black:"#000000",
     red: "#ef0000",
-    green: "#07d307",
+    green: "#00C853",
     blue: "#0000ff",
 }
 

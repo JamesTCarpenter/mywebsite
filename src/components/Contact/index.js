@@ -60,7 +60,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.white};
+  background-color: ${({ theme }) => theme.black};
   padding: 32px;
   border-radius: 16px;
   margin-top: 28px;
@@ -71,16 +71,16 @@ const ContactTitle = styled.div`
   font-size: 24px;
   margin-bottom: 6px;
   font-weight: 600;
-  color: ${({ theme }) => theme.black};
+  color: ${({ theme }) => theme.white};
 `
 
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
-  border: 2px solid ${({ theme }) => theme.black};
+  border: 2px solid ${({ theme }) => theme.green};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.black};
+  color: ${({ theme }) => theme.white};
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
@@ -91,14 +91,14 @@ const ContactInput = styled.input`
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
-  border: 2px solid ${({ theme }) => theme.black};
+  border: 2px solid ${({ theme }) => theme.green};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 2px solid ${({ theme }) => theme.green};
   }
 `
 
@@ -115,6 +115,11 @@ const ContactButton = styled.input`
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+
+  &:hover {
+  transform: scale(1.05);
+    background: ${({ theme }) => theme.green + 99};
+  }
 `
 
 

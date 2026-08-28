@@ -23,8 +23,8 @@ width: 100%;
 border-radius: 16px;
 margin: 50px 12px;
 height: min-content;
-background-color: ${({ theme }) => theme.white};
-color: ${({ theme }) => theme.text_primary};
+background-color: ${({ theme }) => theme.black};
+color: ${({ theme }) => theme.white};
 padding: 20px;
 display: flex;
 flex-direction: column;
@@ -34,7 +34,7 @@ position: relative;
 const Title = styled.div`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.black};
+  color: ${({ theme }) => theme.white};
   margin: 8px 6px 0px 6px;
   @media only screen and (max-width: 600px) {
       font-size: 24px;
@@ -46,7 +46,7 @@ const Date = styled.div`
     font-size: 16px;
     margin: 2px 6px;
     font-weight: 400;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -57,7 +57,7 @@ const Date = styled.div`
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
@@ -75,7 +75,7 @@ const Image = styled.img`
 const Label = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.white};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
         font-size: 16px;
@@ -95,11 +95,11 @@ const Tags = styled.div`
 const Tag = styled.div`
     font-size: 14px;
     font-weight: 400;
-    color: ${({ theme }) => theme.blue};
+    color: ${({ theme }) => theme.green};
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
-    background-color: #DEE2ff;
+    background-color: ${({ theme }) => theme.green + 20};
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -138,7 +138,7 @@ const MemberName = styled.div`
     font-size: 16px;
     font-weight: 500;
     width: 200px;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 600px) {
         font-size: 14px;
     }
@@ -160,19 +160,19 @@ const Button = styled.a`
     color: ${({ theme }) => theme.white};
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.white};
     ${({ dull, theme }) => dull && `
-        background-color: ${theme.blue};
+        background-color: ${theme.green};
         color: ${theme.white};
         &:hover {
-            background-color: ${({ theme }) => theme.blue + 99};
+            background-color: ${({ theme }) => theme.green + 99};
         }
     `}
     cursor: pointer;
     text-decoration: none;
     transition: all 0.5s ease;
     &:hover {
-        background-color: ${({ theme }) => theme.blue + 99};
+        background-color: ${({ theme }) => theme.green + 99};
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;

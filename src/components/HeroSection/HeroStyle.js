@@ -2,7 +2,7 @@ import styled from "styled-components";
 import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.black};
   display: flex;
   justify-content: center;
   position: relative;
@@ -97,7 +97,7 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   max-width: 500px;
-  max-height: 400px;
+  max-height: 500px;
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -113,7 +113,7 @@ export const Img = styled.img`
 export const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
@@ -131,7 +131,7 @@ export const TextLoop = styled.div`
   font-size: 32px;
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
@@ -144,7 +144,7 @@ export const TextLoop = styled.div`
 `;
 
 export const Span = styled.span`
-  color: ${({ theme }) => theme.red};
+  color: ${({ theme }) => theme.green};
   cursor: pointer;
 `;
 
@@ -152,7 +152,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.white};
 
   @media (max-width: 960px) {
     text-align: center;
@@ -182,6 +182,7 @@ export const ResumeButton = styled.a`
     background: ${({ theme }) => theme.green};
     &:hover {
         transform: scale(1.05);
+        background: ${({ theme }) => theme.green + 99};
     transition: all 0.4s ease-in-out;
     filter: brightness(1);
     }    

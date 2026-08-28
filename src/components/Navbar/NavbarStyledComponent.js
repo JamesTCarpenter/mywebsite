@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: ${({theme}) => theme.black};
     height: 80px;
     display: flex;
     align-items: center;
@@ -58,17 +58,17 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.white};
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     :hover {
-      color: ${({ theme }) => theme.red};
+      color: ${({ theme }) => theme.green};
     }
 
     &.active {
-      border-bottom: 2px solid ${({ theme }) => theme.red};
+      border-bottom: 2px solid ${({ theme }) => theme.green};
     }
 `;
 
@@ -119,7 +119,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor: pointer;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.white};
   }
 `
 
@@ -133,7 +133,7 @@ export const MobileMenu = styled.div`
     right: 0;
     width: 100%;
     padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.white};
+    background: ${({ theme }) => theme.black};
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     opacity: ${({ isOpen }) => (isOpen ? '98%' : '0')};
@@ -153,17 +153,17 @@ export const MobileMenuItems = styled.ul`
 `
 
 export const MobileMenuLink = styled(LinkR)`
-  color: ${({ theme }) => theme.black};
+  color: ${({ theme }) => theme.white};
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   :hover {
-    color: ${({ theme }) => theme.red};
+    color: ${({ theme }) => theme.green};
   }
 
   &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.red};
+    border-bottom: 2px solid ${({ theme }) => theme.green};
   }
 `;
 
@@ -189,17 +189,17 @@ export const MobileMenuButton = styled.a`
 `;
 
 export  const MobileLink = styled.a`
-  color: ${({ theme }) => theme.black};
+  color: ${({ theme }) => theme.white};
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   :hover {
-    color: ${({ theme }) => theme.red};
+    color: ${({ theme }) => theme.green};
   }
 
   &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    border-bottom: 2px solid ${({ theme }) => theme.white};
   }
 `;
 

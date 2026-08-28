@@ -5,7 +5,7 @@ const Document = styled.img`
     display: none;
     height: 70px;
     width: fit-content;
-    background-color: #FFF;
+    background-color: ${({ theme }) => theme.black};
     border-radius: 10px;
     &:hover{
         cursor: pointer;
@@ -17,7 +17,7 @@ const Description = styled.div`
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     margin-bottom: 10px;
     @media only screen and (max-width: 768px){
         font-size: 12px;
@@ -35,7 +35,7 @@ text-overflow: ellipsis;
 
 const Card = styled.div`
     width: 650px;
-    background: ${({ theme }) => theme.white};
+    background: ${({ theme }) => theme.black};
     border-radius: 10px;
     padding: 12px 16px;
     justify-content: space-between;
@@ -63,7 +63,7 @@ const Card = styled.div`
         -webkit-line-clamp: unset;
 
     }
-    border: 2px solid #07d307;
+    border: 2px solid ${({ theme }) => theme.green};
 `
 
 const Top = styled.div`
@@ -92,7 +92,7 @@ const Body = styled.div`
 const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px){
         font-size: 14px;
     }
@@ -101,7 +101,7 @@ const Name = styled.div`
 const Degree = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -110,7 +110,7 @@ const Degree = styled.div`
 const Date = styled.div`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
@@ -119,7 +119,7 @@ const Date = styled.div`
 const Grade = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }

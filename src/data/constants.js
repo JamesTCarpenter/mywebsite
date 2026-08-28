@@ -900,7 +900,7 @@ export const Bio = {
       description:
         "My personal website combining my passion for web dev and my love of React Js. A simple one page portfolio utilising a modern design and adding my own unique style",
       image:
-        "https://raw.githubusercontent.com/JamesTCarpenter/Images/main/James-Carpenter-Web-Developer.png",
+        "https://raw.githubusercontent.com/JamesTCarpenter/Images/refs/heads/main/mywebsitefinal.png",
       tags: [
         "React Js",
         "JavaScript",

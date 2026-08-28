@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
-import LogoImg from '../../images/jamesclogo.png';
+import LogoImg from '../../images/jameslogomain.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
