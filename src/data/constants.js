@@ -7,10 +7,10 @@ export const Bio = {
       "App Developer",
     ],
     description:
-      "With over 8 years of experience in app development and UI design, I specialize in creating intuitive, user-friendly digital experiences. My blend of technical expertise and creative thinking ensures every product is both functional and engaging. I design interfaces, develop reusable components, and build scalable applications, leveraging modern front-end technologies to deliver seamless, high-quality user experiences.",
+      "With over 8 years of experience in app development and UI design, I specialise in creating intuitive, user-friendly digital experiences. My blend of technical expertise and creative thinking ensures every product is both functional and engaging. I design interfaces, develop reusable components, and build scalable applications, leveraging modern front-end technologies to deliver seamless, high-quality user experiences.",
     github: "https://github.com/jamestcarpenter",
     resume:
-      "https://drive.google.com/file/d/14JKb_idKdg8MA9OutROIpC0sfv6IdJrA/view?usp=sharing",
+      "https://drive.google.com/file/d/1ekIH4irmYk_Va1SjbhsBsVL6rK5IK1UG/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/james-carpenter-856a3510a",
     codepen: "https://codepen.io/JamesCarpenter",
     behance: "https://www.behance.net/JamesCarpenter11",
